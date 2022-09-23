@@ -1,22 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-        int bottle = 16;
-        System.out.println(bottle);
-        int time = 2;
-        System.out.println(time);
-        int productivity = bottle / time;
-        System.out.println("продуктивность в минуту составляет " + productivity + " бутылок");
-        int min20 = productivity * 20;
-        System.out.println("за " + "20 минут" + " машины произвела бутылок " + min20 + " штук");
-        int day = productivity * 1440;
-        System.out.println("за " + "сутки" + " машины произвела бутылок " + day + " штук");
-        int days3 = day * 3;
-        System.out.println("за " + "3 дня" + " машины произвела бутылок " + days3 + " штук");
-        int days30 = days3 * 10;
-        System.out.println("за " + "30 дней" + " машины произвела бутылок " + days30 + " штук");
-
-
-
+        byte sumOfCans = 120;
+        System.out.println(sumOfCans);
+        byte brownPaintIn1class = 4;
+        System.out.println(brownPaintIn1class);
+        byte whitePaintIn1Class = 2;
+        System.out.println(whitePaintIn1Class);
+        int sumOfCansIn1Class = brownPaintIn1class + whitePaintIn1Class;
+        System.out.println(sumOfCansIn1Class);
+        int sumOfClasses = sumOfCans / sumOfCansIn1Class;
+        System.out.println(sumOfClasses);
+        int brownPaintAll = sumOfClasses * brownPaintIn1class;
+        System.out.println(brownPaintAll);
+        int whitePaintAll = sumOfClasses * whitePaintIn1Class;
+        System.out.println(whitePaintAll);
+        System.out.println("В школе, где " + sumOfClasses + " классов, нужно " + whitePaintAll + " банок белой краски и " + brownPaintAll + " банок коричневой краски");
 
 
     }
