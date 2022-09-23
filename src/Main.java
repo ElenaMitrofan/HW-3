@@ -20,6 +20,8 @@ public class Main {
         System.out.println(weightAllEggs + " гр");
         int weightOfDiet = weightAllBananas + weightAllMilk + weightAllIceCream + weightAllEggs;
         System.out.println(weightOfDiet + " гр");
+        double weightOfDietKg = weightOfDiet / 1000;
+        System.out.println(weightOfDietKg + " кг");
 
 
 
