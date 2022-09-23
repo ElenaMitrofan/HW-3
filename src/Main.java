@@ -1,17 +1,22 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 1;
-        System.out.println ("Значение переменной " + " int " + " с типом " + "a" + " равно " + a);
-        byte b = 2;
-        System.out.println ("Значение переменной " + " byte " + " с типом " + "b" + " равно " + b);
-        short c = 3;
-        System.out.println ("Значение переменной " + " short " + " с типом " + "c" + " равно " + c);
-        long d = 4;
-        System.out.println ("Значение переменной " + " long " + " с типом " + "d" + " равно " + d);
-        float e = 5;
-        System.out.println ("Значение переменной " + " float " + " с типом " + "e" + " равно " + e);
-        double f = 6;
-        System.out.println ("Значение переменной " + " double " + " с типом " + "f" + " равно " + f);
+        double a = 27.12;
+        System.out.println (a);
+        long b = 987678965549L;
+        System.out.println (b);
+        float c = 2.786f;
+        System.out.println (c);
+        boolean d = 3<2;
+        System.out.println (d);
+        short e = 569;
+        System.out.println (e);
+        short f = -159;
+        System.out.println (f);
+        short g = 27897;
+        System.out.println (g);
+        byte h = 67;
+        System.out.println (h);
+
 
 
     }
