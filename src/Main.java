@@ -1,25 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-        int qtBananas = 5;
-        System.out.println(qtBananas + " шт");
-        int weightAllBananas = qtBananas * 80;
-        System.out.println(weightAllBananas + " гр");
-        int qtMilk = 200;
-        System.out.println(qtMilk + "мл");
-        int PortionOfMilk = qtMilk / 100;
-        System.out.println(PortionOfMilk);
-        int weightAllMilk = 105 * PortionOfMilk;
-        System.out.println(weightAllMilk + " гр");
-        int iceCream = 2;
-        System.out.println(iceCream + " брикета");
-        int weightAllIceCream = iceCream * 100;
-        System.out.println(weightAllIceCream + " гр");
-        int eggs = 4;
-        System.out.println(eggs);
-        int weightAllEggs = eggs * 70;
-        System.out.println(weightAllEggs + " гр");
-        int weightOfDiet = weightAllBananas + weightAllMilk + weightAllIceCream + weightAllEggs;
-        System.out.println(weightOfDiet + " гр");
+        int goal = 7;
+        System.out.println(goal + " кг");
+        int goalGr = goal * 1000;
+        System.out.println(goalGr + " гр");
+        int goalIn1Day1 = 250;
+        System.out.println(goalIn1Day1 + " гр");
+        int daysToGoal1 = goalGr / goalIn1Day1;
+        System.out.println("для похудения потребуется " + daysToGoal1 + " дней");
+        int goalIn1Day2 = 500;
+        System.out.println(goalIn1Day2 + " гр");
+        int daysToGoal2 = goalGr / goalIn1Day2;
+        System.out.println("для похудения потребуется " + daysToGoal2 + " дней");
+
+
+
 
 
 
